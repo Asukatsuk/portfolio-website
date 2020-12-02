@@ -12,12 +12,12 @@
   </head>
   <body>
     <header>
-      <div id="logo">
+      <div class="container">
       <a href="#">
-        <img src="./img/atlogo.png" alt="Asuka Tsukamoto">
+        <img src="./img/atlogo.png" alt="Asuka Tsukamoto" class="logo">
       </a>
         <nav>
-          <ul>
+          <ul class="navigation">
             <li><a href="index.html">Work</a></li>
             <li><a href="about.html" target="_self">About</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -27,7 +27,7 @@
     </header>
     <main>
       <div id="hero">
-        <div>
+        <div class="container">
           <h1>Hi, I'm Asuka.<br>
             <span>UI designer with a background in apparel graphic design</span>
           </h1>
@@ -37,11 +37,9 @@ needs.</p>
         </div>
       </div>
       <div id="work">
-        <div>
+        <div class="container">
           <h2>My Work</h2>
-        </div>
-        <div>
-          <div>
+          <div class="row">
             <picture>
               <source src="img/Asukat_SimplePlateCover_@x1.jpg" media="(max-width:767px)">
                 <img src="img/Asukat_SimplePlateCover_@x2.jpg" alt="Simple Plate">
@@ -50,9 +48,8 @@ needs.</p>
             <p>Simple Plate is a web app indroducing time efficient cooking for busy people by offering a variety of fridge/freezer stock-able recipies.</p>
             <p>User Research, User Interface, Userbility Testing, Wireframing, Prototyping</p>
             <a href="simpleplate.html" class="button">View</a>
-          </div>
         </div>
-        <div>
+        <div class="row">
           <picture>
             <source src="img/Asukat_ViViCover_@x1.jpg" media="(max-width:767px)">
               <img src="img/Asukat_ViViCover_@x2.jpg" alt="ViVi Activewear">
@@ -60,22 +57,22 @@ needs.</p>
           <h3>ViVi Activewear</h3>
           <p>Luxury activewear E-commerce app featuring early access to new arrivals and super easy shopping experience.</p>
           <p>User Research, User Interface, Userbility Testing, Wireframing, Prototyping</p>
-            <a href="simpleplate.html" class="button">View</a>
+            <a href="#" class="button">Coming soon</a>
+        </div>
         </div>
       </div>
     </main>
-    <footer id="contact">
-      <div>
+    <footer id="footer">
+      <div class="container">
         <h2>Get in Touch</h2>
         <p>Feel free to contact me for full-time or freelance opportunities in Los Angeles.</p>
-      </div>
-      <div>
+      <div id="contact">
         <a href="mailo:asukatsuk@mac.com" class="button contact">Email me</a>
       </div>
-      <div>
+      <div class="footerpadding">
         <a href="https://www.linkedin.com/in/asukat" target="_blank">
           <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-          	 width="94px" height="94px" viewBox="0 0 510 510 " style="enable-background:new 0 0 510 510;" xml:space="preserve">
+          	 width="56px" height="56px" viewBox="0 0 510 510 " style="enable-background:new 0 0 510 510;" xml:space="preserve">
           <g>
           	<g id="post-linkedin">
           		<path d="M459,0H51C22.95,0,0,22.95,0,51v408c0,28.05,22.95,51,51,51h408c28.05,0,51-22.95,51-51V51C510,22.95,487.05,0,459,0z
@@ -118,7 +115,7 @@ needs.</p>
         </a>
         <a href="https://www.behance.net/asukatsukamoto" target="_blank">
           <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-          	 width="94px" height="94px" viewBox="0 0 94 94" style="enable-background:new 0 0 94 94;" xml:space="preserve">
+          	 width="56px" height="56px" viewBox="0 0 94 94" style="enable-background:new 0 0 94 94;" xml:space="preserve">
           <g>
           	<g>
           		<path d="M68.77,41.799c-7.32,0-8.34,7.307-8.34,7.307h15.566C75.997,49.105,76.089,41.799,68.77,41.799z"/>
@@ -166,6 +163,7 @@ needs.</p>
       </div>
       <div>
         <p>Copyright Asuka Tsukamoto 2020</p>
+      </div>
       </div>
     </footer>
   </body>
