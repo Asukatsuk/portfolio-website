@@ -169,3 +169,6 @@ nav{
   display: inline-block;
   width: 100%;
 }
+a+a {
+margin-left: 10px;
+}
