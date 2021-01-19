@@ -16,8 +16,7 @@ body {
 }
 header{
   background-color: #e5e5e5;
-  text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   position: fixed;
   width: 100%;
   -webkit-box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.67);
@@ -25,7 +24,7 @@ header{
   box-shadow:         4px 4px 10px 0px rgba(50, 50, 50, 0.67);
 }
 main {
-  padding-top: 134px;
+  padding-top: 72px;
 }
 
 h1, h2, h3, h4 {
@@ -143,15 +142,49 @@ a:focus {
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 150px;
+  min-width: 250px;
 }
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid #4a4a4a;
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
-nav > ul > li {
-  display: inline-block;
-}
+
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
@@ -173,13 +206,11 @@ nav > ul > li > a:active {
   color: #4a4a4a;
   text-decoration: underline;
 }
-nav{
-  display: inline-block;
-  width: 100%;
-}
+
 a+a {
 margin-left: 10px;
 }
+
 .sun {
   animation: 4s sun-color-change infinite alternate linear;
 }
@@ -219,9 +250,9 @@ margin-left: 10px;
 
 
 /* ==============================
-Medium devices (640px and larger)
+Medium devices (641px and larger)
 ================================= */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
   header {
     text-align: unset;
     padding: 20px 13px;
@@ -237,6 +268,22 @@ Medium devices (640px and larger)
   }
   .col-md-6 {
   width: 50%;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul {
+  margin: 1em 0;
+}
+
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
 }
 
 [class*="col-"] {
