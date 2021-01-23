@@ -286,6 +286,15 @@ nav > ul {
   display: none;
 }
 
+.navtoggle.responsive li {
+border-top: none;
+}
+
+.navtoggle.responsive nav {
+  padding: 0 0 0;
+}
+
+
 [class*="col-"] {
   float: left;
   padding: 10px
