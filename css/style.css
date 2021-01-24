@@ -103,6 +103,13 @@ a:focus {
   color: #ffffff;
 }
 
+.profile {
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Layout styling */
 .container {
   padding: 0 15px;
@@ -304,6 +311,13 @@ border-top: none;
 content: "";
 clear: both;
 display: table;
+}
+
+.profile {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* ==============================
 Large devices (1024px or larger)
