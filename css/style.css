@@ -245,6 +245,40 @@ a:focus {
   padding: 10px 0 0;
 }
 
+#simple-plate .container {
+  padding-top: 20px;
+}
+
+#vivi .sidenav {
+  width: 100px;
+  position: fixed;
+  top: auto;
+  left: 5px;
+  overflow-x: hidden;
+}
+
+#vivi .sidenav a {
+  padding-top: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+  color: #4a4a4a;
+  display: block;
+}
+
+#vivi .sidenav a:hover {
+  color: #f1f1f1;
+}
+
+#vivi .stage {
+  margin-left: 110px;
+  margin-right: 20px;
+}
+
+#vivi a {
+  margin: 0 0 0 10px;
+}
+
 #footer h3 {
   text-align: center;
   padding-top: 15px;
@@ -260,10 +294,6 @@ a:focus {
   margin: 0;
   padding-bottom: 25px;
   text-align: center;
-}
-
-#simple-plate .container {
-  padding-top: 20px;
 }
 
 .logo {
@@ -448,6 +478,36 @@ Medium devices (641px and larger)
   }
 
   #simple-plate a {
+    margin: 0 0 0 10px;
+  }
+
+  #vivi .sidenav {
+    width: 160px;
+    position: fixed;
+    top: auto;
+    left: 10px;
+    overflow-x: hidden;
+  }
+
+  #vivi .sidenav a {
+    padding-top: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #4a4a4a;
+    display: block;
+  }
+
+  #vivi .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  #vivi .stage {
+    margin-left: 200px;
+    margin-right: 20px;
+  }
+
+  #vivi a {
     margin: 0 0 0 10px;
   }
 }
