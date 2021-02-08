@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About Asuka</title>
+  <title>Simple Plate</title>
   <link href="img/AT_FAVICON.png" rel="shortcut icon">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
@@ -19,8 +19,8 @@
         <a href="index.html">
           <img src="./img/atlogo.png" alt="Asuka Tsukamoto" class="logo">
         </a>
-        <nav>
-          <ul class="navigation">
+        <nav class="container">
+          <ul>
             <li><a href="index.html">Work</a></li>
             <li><a href="about.html" target="_self">About</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -30,19 +30,31 @@
       </div>
     </div>
   </header>
+
   <main>
     <div id="simple-plate">
-      <div class="container">
-        <h1>Simple Plate</h1>
-        <picture>
-          <source srcset="img/SimplePlate/1_Top_@x1.jpg" media="(max-width:767px)">
-          <img src="img/SimplePlate/1_Top_@x2.jpg" alt="Simple Plate Top">
-        </picture>
+        <div class="sidenav">
+            <a href="#about">About</a>
+            <a href="#competitor-analysis">Competitor Analysis</a>
+            <a href="#user-research">User Research</a>
+            <a href="#userflow">User Flow Diagram</a>
+            <a href="#wireframes">Wireframes</a>
+            <a href="#userbiity-testing">Userbility Testing</a>
+            <a href="#moodboards">Moodboard</a>
+            <a href="#styleguide">Styleguide</a>
+            <a href="#final-design">Final Design</a>
+        </div>
 
-        <h2>About</h2>
+        <div class="stage">
+        <div id="about">
+        <h2>Simple Plate</h2>
         <p>Simple Plate is a web app indroducing time efficient cooking for busy people by offering a variety of fridge/freezer
           stock-able recipies.
         </p>
+        <picture>
+          <source srcset="img/SimplePlate/1_Top_@x1.jpg" media="(max-width:767px)">
+          <img src="img/SimplePlate/1_Top_@x2.jpg" class="simpleplate-top" alt="Simple Plate Top">
+        </picture>
 
         <h3>Challenge</h3>
         <p>We all know cooking at home has a lot of benefits. It's healthier, saves money, bring joy and more.
@@ -50,20 +62,24 @@
           One research shows every time people order food digitally, you subconsciously order more. It's not good for your health and
           finance in the long run. I would like to create a recipe app will motivate people cooking and have healthy eating habits.
         </p>
+       </div>
 
+        <div id="competitor-analysis">
         <h2>Competitor Analysis</h2>
         <picture>
           <source srcset="img/SimplePlate/2_Competitors_@x1.jpg" media="(max-width:767px)">
           <img src="img/SimplePlate/2_Competitors_@x2.jpg" alt="Competitor Analysis">
         </picture>
+       </div>
 
+        <div id="user-research">
         <h2>User Research</h2>
         <h3>Objective</h3>
         <p>I conducted a survey of 4 people. The purpose was to determine the basic ‘pain-points’ of cooking. Working with real world data
           is a good staring point to help avoid guesswork and provided a better chance to discover the root of the problem and how to solve it.
         </p>
         <h3>Method</h3>
-        <p>I asked following 7 questions.</p>
+        <p>I asked following 7 questions.<br>
         Q1: How many times a week do you cook?<br>
         Q2: How often do you go to the grocery shopping?<br>
         Q3: How often do you use online recipes or recipe app?<br>
@@ -71,7 +87,9 @@
         Q5: What are the key elements of searching a recipe on app or online?<br>
         Q6: How important for you to cook at home?<br>
         Q7: What’s your experience with using recipe app or website? Have you encountered any problems? If you can improve
-        some features, please describe.
+        some features, please describe.<br>
+        <br>
+       </p>
 
         <h3>Result Synthesis</h3>
         <h4>Pattern</h4>
@@ -97,37 +115,43 @@
         <p>The accumulation of the different insights and common patterns that came from the users’ answers helped me create three personas.</p>
         <picture>
           <source srcset="img/SimplePlate/3_Persona_@x1.jpg" media="(max-width:767px)">
-          <img src="img/SimplePlate/3_Persona_@x2.jpg" alt="Parsona Kate">
+          <img src="img/SimplePlate/3_Persona_@x2.jpg" class="kate" alt="Parsona Kate">
         </picture>
         <picture>
           <source srcset="img/SimplePlate/4_Persona2_@x1.jpg" media="(max-width:767px)">
-          <img src="img/SimplePlate/4_Persona2_@x2.jpg" alt="Parsona Nicole">
+          <img src="img/SimplePlate/4_Persona2_@x2.jpg" class="nicole" alt="Parsona Nicole">
         </picture>
         <picture>
           <source srcset="img/SimplePlate/5_Persona3_@x1.jpg" media="(max-width:767px)">
-          <img src="img/SimplePlate/5_Persona3_@x2.jpg" alt="Parsona Daniel">
+          <img src="img/SimplePlate/5_Persona3_@x2.jpg" class="daniel" alt="Parsona Daniel">
         </picture>
+       </div>
 
-        <h3>User Flows Diagram</h3>
+        <div id="userflow">
+        <h2>User Flows Diagram</h2>
         <picture>
           <source srcset="img/SimplePlate/6_UserFlow_@x1.jpg" media="(max-width:767px)">
           <img src="img/SimplePlate/6_UserFlow_@x2.jpg" alt="User Flows">
         </picture>
+      </div>
 
-        <h3>Wireframes</h3>
-        <p>Low-Fidelity</p>
+        <div id="wireframes">
+        <h2>Wireframes</h2>
+        <h3>Low-Fidelity</h3>
         <picture>
           <source srcset="img/SimplePlate/7_LoFi_@x1.jpg" media="(max-width:767px)">
           <img src="img/SimplePlate/7_LoFi_@x2.jpg" alt="Lo-Fi Wireframes">
         </picture>
-        <p>Mid-Fidelity</p>
+        <h3>Mid-Fidelity</h3>
         <picture>
           <source srcset="img/SimplePlate/8_MidFi_@x1.jpg" media="(max-width:767px)">
           <img src="img/SimplePlate/8_MidFi_@x2.jpg" alt="Mid-Fi Wireframes">
         </picture>
+      </div>
 
-        <h3>Usability Testing</h3>
-        <h4>Objective</h4>
+        <div id="userbiity-testing">
+        <h2>Usability Testing</h2>
+        <h3>Objective</h3>
         <p>I conducted an early prototype testing. The goal of this test was to assess how fluid a user’s experience was on mobile app.
           I wanted to observe if the users could complete 3 basic tasks to measure the application’s basic functionality. </p>
         <ul>
@@ -135,25 +159,31 @@
           <li>Find out if the user can easily use a step-by-step video recipe page</li>
           <li>Find out if the user can easily find a shopping list</li>
         </ul>
-        <h4>Results Synthesis & Error Rating</h4>
+        <h3>Results Synthesis & Error Rating</h3>
         <picture>
           <source srcset="img/SimplePlate/9_UserTest_@x1.jpg" media="(max-width:767px)">
           <img src="img/SimplePlate/9_UserTest_@x2.jpg" alt="Results">
         </picture>
+        </div>
 
-        <h3>Moodboard</h3>
+        <div id="moodboards">
+        <h2>Moodboard</h2>
         <picture>
           <source srcset="img/SimplePlate/10_Moodboard_@x1.jpg" media="(max-width:767px)">
           <img src="img/SimplePlate/10_Moodboard_@x2.jpg" alt="Moodboard">
         </picture>
+        </div>
 
-        <h3>Style Guide</h3>
+        <div id="styleguide">
+        <h2>Style Guide</h2>
         <picture>
           <source srcset="img/SimplePlate/11_Styleguide_@x1.jpg" media="(max-width:767px)">
           <img src="img/SimplePlate/11_Styleguide_@x2.jpg" alt="Style guide">
         </picture>
+        </div>
 
-        <h4>Final Design</h4>
+        <div id="final-design">
+        <h2>Final Design</h2>
         <picture>
           <source srcset="img/SimplePlate/12_Features_@x1.jpg" media="(max-width:767px)">
           <img src="img/SimplePlate/12_Features_@x2.jpg" alt="Features">
@@ -166,6 +196,7 @@
           <source srcset="img/SimplePlate/14_Mockups_@x1.jpg" media="(max-width:767px)">
           <img src="img/SimplePlate/14_Mockups_@x2.jpg" alt="All screens">
         </picture>
+      </div>
       </div>
     </div>
   </main>
