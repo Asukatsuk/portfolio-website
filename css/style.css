@@ -8,6 +8,10 @@ Secondary Color (blue): #3d9dd9;
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #fff;
   font-family: 'Roboto', sans-serif;
@@ -174,18 +178,6 @@ a:focus {
   margin: 0 10px;
 }
 
-#footer h2 {
-  text-align: center;
-  padding-top: 15px;
-}
-
-#footer {
-  background-color: #e5e5e5;
-  margin: 0;
-  padding-bottom: 25px;
-  text-align: center;
-}
-
 #about h1 {
   margin-left: 13px;
 }
@@ -201,6 +193,77 @@ a:focus {
 
 #about p {
   margin-left: 13px;
+}
+
+#simple-plate .sidenav {
+  width: 100px;
+  position: fixed;
+  top: auto;
+  left: 5px;
+  overflow-x: hidden;
+}
+
+#simple-plate .sidenav a {
+  padding-top: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+  color: #4a4a4a;
+  display: block;
+}
+
+#simple-plate .sidenav a:hover {
+  color: #f1f1f1;
+}
+
+#simple-plate .stage {
+  margin-left: 110px;
+  margin-right: 20px;
+}
+
+#simple-plate a {
+  margin: 0 0 0 10px;
+}
+
+#simple-plate p {
+  margin: 0;
+  padding: 20px 0;
+}
+
+#simple-plate h2 {
+  margin: 0;
+  padding: 20px 0 0;
+}
+
+#simple-plate h3 {
+  margin: 0;
+  padding: 15px 0 0;
+}
+
+#simple-plate h4 {
+  margin: 0;
+  padding: 10px 0 0;
+}
+
+#footer h3 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+#footer h2 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+#footer {
+  background-color: #e5e5e5;
+  margin: 0;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+#simple-plate .container {
+  padding-top: 20px;
 }
 
 .logo {
@@ -341,6 +404,51 @@ Medium devices (641px and larger)
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .kate {
+    width: 800px;
+    padding: 15px;
+  }
+
+  .nicole {
+    width: 800px;
+    padding: 15px;
+  }
+
+  .daniel {
+    width: 800px;
+    padding: 15px;
+  }
+
+  #simple-plate .sidenav {
+    width: 160px;
+    position: fixed;
+    top: auto;
+    left: 10px;
+    overflow-x: hidden;
+  }
+
+  #simple-plate .sidenav a {
+    padding-top: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #4a4a4a;
+    display: block;
+  }
+
+  #simple-plate .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  #simple-plate .stage {
+    margin-left: 200px;
+    margin-right: 20px;
+  }
+
+  #simple-plate a {
+    margin: 0 0 0 10px;
   }
 }
 
