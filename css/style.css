@@ -12,6 +12,12 @@ html {
   scroll-behavior: smooth;
 }
 
+:target::before {
+  content: "";
+  display: block;
+  height: 100px;
+}
+
 body {
   background-color: #fff;
   font-family: 'Roboto', sans-serif;
@@ -26,6 +32,7 @@ header {
   padding: 10px 0 4px;
   position: fixed;
   width: 100%;
+  z-index: 1;
   -webkit-box-shadow: 4px 4px 10px 2px rgba(50, 50, 50, 0.67);
   -moz-box-shadow: 4px 4px 10px 2px rgba(50, 50, 50, 0.67);
   box-shadow: 4px 4px 10px 2px rgba(50, 50, 50, 0.67);
